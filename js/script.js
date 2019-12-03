@@ -30,6 +30,9 @@ else if (avgJ<avgM && avgM>avgMr) {
 else if (avgJ<avgMr && avgM<avgMr) {
     document.write('Mary has best average score');
 }   
+else{
+    document.write('Ther is a draw!');
+}
 
 document.write('<br><br>John '+avgJ+'<br>Mike '+avgM+'<br>Mary '+avgMr);
 
